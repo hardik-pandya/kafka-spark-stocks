@@ -36,18 +36,19 @@ Improvements
 Producer output
 ===============
 
-``ticker-producer_1  | 21:27:54.211 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sending Data To Topic:: stocks with {"tickers":[{"name":"AMZN","price":2081},{"name":"MSFT","price":114},{"name":"AAPL","price":266}]}
+```ticker-producer_1  | 21:27:54.211 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sending Data To Topic:: stocks with {"tickers":[{"name":"AMZN","price":2081},{"name":"MSFT","price":114},{"name":"AAPL","price":266}]}
 ticker-producer_1  | 21:27:54.218 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sent Data To:: stocks
 ticker-producer_1  | 21:28:04.176 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sending Data To Topic:: stocks with {"tickers":[{"name":"AMZN","price":2046},{"name":"MSFT","price":110},{"name":"AAPL","price":266}]}
 ticker-producer_1  | 21:28:04.185 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sent Data To:: stocks
 ticker-producer_1  | 21:28:14.176 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sending Data To Topic:: stocks with {"tickers":[{"name":"AMZN","price":2003},{"name":"MSFT","price":112},{"name":"AAPL","price":257}]}
-ticker-producer_1  | 21:28:14.184 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sent Data To:: stocks
-```
+ticker-producer_1  | 21:28:14.184 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sent Data To:: stocks```
+
+
 Consumer Output
 ===============
 -- error with consumer inside docker is not working inside docker with following error
 ```ticker-consumer_1  | Exception in thread "main" org.apache.spark.sql.AnalysisException: Failed to find data source: kafka. Please deploy the application as per the deployment section of "Structured Streaming + Kafka Integration Guide".; aka requires spark-submit
-``
+```
 
 
 ### Example Output from running outside Docker (IntelliJ console output)
