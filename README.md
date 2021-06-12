@@ -1,4 +1,8 @@
-kaka-stocks
+kaka-spark-stocks
+=================
+
+Kafka Producer App producing random stock ticker events and Aggrgating using Spark Structured Streaming
+
 - ticker-consumer-app (spark structured streaming kaka consumer app)
 - ticker-producer-app (scala producer)
 
