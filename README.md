@@ -33,7 +33,7 @@ Improvements
 1. Paramterize hardcoded TOPIC with docker environment variables
 2. Unit and Integration tests
 
-Croducer output
+Producer output
 ===============
 
 ``ticker-producer_1  | 21:27:54.211 [default-akka.actor.default-dispatcher-2] INFO TickerProducer$ - [Producer] Sending Data To Topic:: stocks with {"tickers":[{"name":"AMZN","price":2081},{"name":"MSFT","price":114},{"name":"AAPL","price":266}]}
