@@ -46,6 +46,8 @@ icker-consumer_1  | Exception in thread "main" org.apache.spark.sql.AnalysisExce
 
 
 ### Example Output from running outside Docker (IntelliJ console output)
+
+```
 -------------------------------------------
 Batch: 0
 -------------------------------------------
@@ -102,3 +104,5 @@ Batch: 4
 |AMZN|  1939.80358598207|2021-06-11 16:20:...|
 |MSFT|144.37235228539578|2021-06-11 16:20:...|
 +----+------------------+--------------------+
+
+```
